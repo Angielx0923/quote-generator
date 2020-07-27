@@ -42,7 +42,7 @@ let ross = {
 
 let poussey = {
     'name'      : '– Poussey Washington \u2022 Orange Is The New Black',
-    'picture'   : 'img/poussey.png',
+    'picture'   : 'img/poussey.jpg',
     'quote'     : '“You can\'t live your life according to maybes.”'
 };
 

@@ -84,6 +84,7 @@ body {
     font-family: 'Chonburi', sans-serif;
     font-style: italic;
     color: #707070;
+
 }
 
 .bubble__author {
@@ -107,4 +108,25 @@ body {
     font-family: 'Bangers', Arial, Helvetica, sans-serif;
     outline: none;
 
+}
+
+@media screen and (max-width: 500px) {
+    .bubble__quote {
+        font-size: 1.5rem;
+    }
+
+    .bubble__author {
+        font-size: .9rem;
+    }
+
+    .header__title {
+        top: -200px;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .header__title{
+        top: -197px;
+    }
 }
