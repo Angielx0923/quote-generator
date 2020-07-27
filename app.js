@@ -58,8 +58,10 @@ let annalise = {
     'quote'     : '“Never take a learning opportunity away from another student. No matter how smart you need everyone to think you are.”'
 };
 
+// On regroupe tous les tableau dans un seul
 let listArray = [tyrion, yoda, phoebe, monica, joey, rachel, ross, poussey, cristina, annalise];
 
+// On récupère les balises utiles
 let quote           = document.querySelector('#quote');
 let author          = document.querySelector('#author');
 let picture         = document.querySelector('#picture');
@@ -67,11 +69,13 @@ let newQuoteButton  = document.querySelector('#btn');
 let randomNumber    = 0;
 let lastNumber      = 0;
 
+// On génère un nombre aléatoire
 function getRandomNumber() {
     return Math.floor(Math.random() * listArray.length);
 };
 
 newQuoteButton.addEventListener('click', () => {
+    // On verifie si randomNumber à la même valeur que le dernier nombre. Si oui, on regénère un nombre
     do {
         randomNumber = getRandomNumber()
     } while (randomNumber == lastNumber)
