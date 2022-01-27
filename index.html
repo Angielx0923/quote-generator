@@ -9,24 +9,30 @@
 </head>
 <body>
 
-    <header class="header">
-        <h1 class="header__title">Who said what?</h1>
-    </header>
-
-    <main class="main">
-        <div class="main__container">
-            <div class="picture__container">
-                <img src="img/Tyrion-Lanister.png" alt="Picture of the Author" class="picture__author" id="picture">
+    <div class="page-container">
+        <header class="header">
+            <div class="header__container">
+                <h1 class="header__title">Who said what?</h1>
             </div>
-            <div class="bubble__container">
-                <div class="bubble__content">
-                    <p class="bubble__quote" id="quote">“Never forget what you are, the rest of the world will not. Wear it like armour and it can never be used to hurt you.</p>
-                    <p class="bubble__author" id="author">– Tyrion Lanister &bull; Game of Thrones</p>
+        </header>
+    
+        <main class="main">
+            <div class="main__container">
+                <div class="picture__container">
+                    <img src="img/Tyrion-Lanister.png" alt="Picture of the Author" class="picture__author" id="picture">
                 </div>
-                <button class="bubble__btn" id="btn">New quote</button>
+                <div class="bubble__container">
+                    <div class="bubble__content">
+                        <p class="bubble__quote" id="quote">“Never forget what you are, the rest of the world will not. Wear it like armour and it can never be used to hurt you.</p>
+                        <p class="bubble__author" id="author">– Tyrion Lanister &bull; Game of Thrones</p>
+                    </div>
+                </div>
+                <div class="bubble__btn__container">
+                    <button class="bubble__btn" id="btn">New quote</button>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
+    </div>
 
     <script src="app.js"></script>
 </body>

@@ -8,7 +8,15 @@ body {
     font-family: 'Montserra', sans-serif;
 }
 
+.page-container {
+    height: 100vh;
+}
+
 .header {
+    height: 29vh;
+}
+
+.header__container {
     padding: 0 1rem;
     left: -38px;
     position: relative;
@@ -27,10 +35,15 @@ body {
     font-family: 'Bangers', Arial, sans-serif;
 }
 
+.main {
+    position: relative;
+    top: -60px;
+}
+
 .main__container {
     text-align: center;
-    position: relative;
-    top: -30px;
+    max-width: 700px;
+    margin: auto;
 }
 
 .picture__container {
@@ -48,8 +61,7 @@ body {
 }
 
 .bubble__container {
-    max-width: 700px;
-    height: 400px;
+    height: 300px;
     border-radius: 100px;
     margin: 0 auto;
     padding: 2rem;
@@ -92,16 +104,20 @@ body {
     margin: 2rem 2rem 0 0;
 }
 
+.bubble__btn__container {
+    position: relative;
+    text-align: right;
+    margin-right: 3rem;
+    padding: 1.5rem;
+}
+
 .bubble__btn {
     padding: 1rem 1.5rem;
     border-radius: 20px;
     border: none;
     background-color: #021f3c;
     
-    position: absolute;
-    bottom: -1.5rem;
-    right: 10%;
-    transform: translateY(100%);
+    position: relative;
     box-shadow: -1px 17px 62px -16px rgba(0,0,0,0.56);
     cursor: pointer;
     
